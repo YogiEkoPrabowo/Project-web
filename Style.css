@@ -1,0 +1,344 @@
+/* Navbar */
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+/*Utility*/
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+
+/*jumbotron*/
+/*.jumbotron {
+	background-image: url(Img/banner2.png);
+	background-size: cover;
+	height: 500px;
+}*/
+
+/*info panel*/
+
+div.polaroid1 {
+  width: 100%;
+  background-color: #F7F11C;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  margin-bottom: 80px;
+  margin-left: 18px;
+  margin-top: 60px;
+}
+
+div.polaroid2 {
+  width: 70%;
+  background-color: #E240B8;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  margin-bottom: 80px;
+  margin-left: 88px;
+  margin-top: 60px;
+}
+
+div.polaroid3 {
+  width: 68%;
+  background-color: #E22761;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  margin-bottom: 80px;
+  margin-left: 68px;
+  margin-right: 49px;
+  margin-top: 60px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.gambar{
+	width: 300px;
+	height: 300px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.gallery{
+margin: 10px 50px;
+margin-left: 30px;
+margin-bottom: 60px;
+}
+
+.gallery img{
+padding: 5px;
+filter: grayscale(80%);
+transition: 1s;
+}
+
+.gallery img:hover{
+filter: grayscale(0);
+transform: scale(1.1);
+}
+
+.center {
+	width: 80%;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.enrollment {
+	width: 40%;
+	margin-top: 30px;
+}
+
+.textenroll {
+	font-size: 14px;
+	font-family: Times new roman;	
+}
+
+/*Akhir info panel*/
+
+/* Form */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.batten {
+	margin-left: 200px; 
+	margin-bottom:20px; 
+	width:80px; 
+	height:30px
+}
+
+.formtable{
+	background:#FFFFF;
+	color:#000;
+	border:0px;
+	line-height:2em;
+	padding:0 10px;
+}
+
+form{
+  background-image: url('Img/bg4.png');
+  background-size: cover;
+   background-attachment: fixed;
+}
+
+/* Akhir Form */
+
+/* Footer */
+
+.footer {
+	margin-top: 100px;
+	background-color: #2AAFEA;
+}
+
+.footer p {
+	color: #ffffff;
+	font-size: 18px;
+}
+
+#test{
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	color:#ffffff;
+}
+	
+#test2{
+	text-align: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	font-size: 10px;
+	color:#ffffff;
+}
+
+#konek{
+	margin-top: 17px; 
+	margin-right: 20px; 
+	float: right;
+	font-size:14px;
+	color:white;
+}
+
+.profile {
+	width:40%; 
+	height:auto; 
+	margin-left:50px; 
+	padding-top:30px;
+}
+
+.tableform {
+  margin-left: 100px;
+}
+
+.formtable {
+  width: 80%;
+  margin-left: 20px;
+}
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+	.nav-link {
+	text-transform: uppercase;
+	margin-right: 30px;
+	}
+
+	.nav-link:hover::after{
+		content:'';
+		display: block;
+		border-bottom: 3px solid #0B63DC;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	.textenroll {
+		font-size: 16px;
+		font-family: Times new roman;	
+	}
+
+	/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+#test{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color:#ffffff;
+}
+
+#test2{
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color:#ffffff;
+}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+ }
